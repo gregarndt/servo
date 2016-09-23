@@ -9,7 +9,7 @@ tasks:
     workerType: "{{ taskcluster.docker.workerType }}"
     payload:
       maxRunTime: 1200
-      image: "gregarndt/servo:0.1-alpha1"
+      image: "gregarndt/servo:0.1-alpha2"
       command:
         - "/bin/bash"
         - "-c"
@@ -30,7 +30,7 @@ tasks:
     workerType: "{{ taskcluster.docker.workerType }}"
     payload:
       maxRunTime: 1200
-      image: "gregarndt/servo:0.1-alpha1"
+      image: "gregarndt/servo:0.1-alpha2"
       command:
         - "/bin/bash"
         - "-c"
